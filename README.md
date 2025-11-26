@@ -35,7 +35,14 @@ This is a local, offline text-to-image generation application built using Stable
    ```bash
   python -m streamlit run app.py
 ```
- 
+ REQUIREMENTS:-
+-torch>=2.0.0
+-diffusers>=0.21.0
+-transformers>=4.30.0
+-accelerate>=0.20.0
+-streamlit>=1.25.0
+-scipy
+
 ## Hardware Documentation
 This application supports two execution modes:-
 Hardware              |Precision |Est. Time per Image  |Notes
